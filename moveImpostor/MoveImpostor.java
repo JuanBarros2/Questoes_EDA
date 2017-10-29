@@ -13,6 +13,13 @@ class MoveImpostor {
 			entradaNum[i] = Integer.parseInt(entrada[i]);
 		}
 		
+		moveImpostor(entradaNum);
+		
+		System.out.println(Arrays.toString(entradaNum));
+		
+	}
+
+	private static void moveImpostor(int[] entradaNum) {
 		int i = 1;
 		
 		while (entradaNum[i] >= entradaNum[i-1]) {
@@ -26,9 +33,6 @@ class MoveImpostor {
 			
 			i--;
 		}
-		
-		System.out.println(Arrays.toString(entradaNum));
-		
 	}
 
 }

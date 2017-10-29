@@ -137,7 +137,7 @@ class EncaminhamentoEmBST {
 	}
 
 	private boolean isEmpty() {
-			return root == null;
+		return root == null;
 	}
 	
  	private void insertOnArray(Integer[] array, Integer element) {
